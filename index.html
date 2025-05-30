@@ -81,28 +81,34 @@
   <h2>Membership Information</h2>
   <p>Join us today! Please fill out the form below to apply for membership.</p>
 
-  <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST">
-    <label for="name">Full Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+  <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+    <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST" style="flex: 1 1 300px; min-width: 300px;">
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
 
-    <label for="email">Email Address:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
 
-    <label for="phone">Phone Number:</label><br>
-    <input type="tel" id="phone" name="phone"><br><br>
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone"><br><br>
 
-    <label for="type">Membership Type:</label><br>
-    <select id="type" name="membership-type">
-      <option value="full">Full</option>
-      <option value="junior">Junior</option>
-      <option value="social">Social</option>
-    </select><br><br>
+      <label for="type">Membership Type:</label><br>
+      <select id="type" name="membership-type">
+        <option value="full">Full</option>
+        <option value="junior">Junior</option>
+        <option value="social">Social</option>
+      </select><br><br>
 
-    <label for="message">Additional Information:</label><br>
-    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+      <label for="message">Additional Information:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
-    <button type="submit">Submit Application</button>
-  </form>
+      <button type="submit">Submit Application</button>
+    </form>
+
+    <img src="SA Bowls.JPG" alt="SA Bowls at Alloa Bowling Club" style="flex: 1 1 300px; max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+</section>
+
 </section>
 
 
